@@ -1,0 +1,73 @@
+/*
+this is how you commnet in css
+on this page you can find the style sheets i have created 
+.bluep is a class can be reused <p class ="bluep">
+#shinyH1 is a pointer <h1 id="shinyH1">
+
+*/
+
+
+body 
+{
+	background-color: rgba(150, 100, 0, 0.5);
+	font-size: 18px;
+	font-family: Arial; /*can use more but there are safe fonts that all pcs have. add alturnative fonts
+	add additional font with a commer*/
+	border: 19px dotted;
+	border-color: black;
+
+	margin: 20px;
+}
+
+p
+{
+	background-color: red;
+	margin: 0px 400px 0px 400px;
+}
+
+.bluep{background-color: gold;}
+
+#shinyH1 
+{
+	background-color:rgba(20,255,180, 0.7);
+
+}
+
+a:hover
+{
+	color: rgba(0,255,100, 0.4);
+}
+
+.title_home/*class on homepage title*/
+{
+	width: 50%; /*use this instead of margine*/
+	margin-top: 10px;
+	background-color: red;
+	margin: auto;
+	overflow: hidden;
+}
+
+.header_T
+{
+	text-shadow: 2px 2px yellow;
+}
+
+#nav_bar a /*navagation bar you need to call the thing you want to edit
+in this cause i use a because it points to an anchor i.e. the links*/
+{
+	background-color: blue;
+	text-align: center;
+	width: 30%;
+	
+}
+
+#nav_bar div /* if you put any thing into a div you need to move it*/
+{
+	text-align: center;
+}
+
+#para div 
+{
+	margin: none;
+	transform: 100px;
+}
